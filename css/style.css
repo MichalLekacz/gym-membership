@@ -1,6 +1,6 @@
 body {
-    max-width: 100rem;
-    margin: 10rem auto;
+    max-width: 120rem;
+    margin: 5rem auto;
     background: linear-gradient(262.16deg, rgba(255, 107, 0, 0.2) 0.74%, rgba(255, 255, 255, 0) 99.73%), linear-gradient(98deg, rgba(0, 13, 129, 0.2) 0%, rgba(255, 255, 255, 0) 99.66%), #410E23;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -47,6 +47,7 @@ h3 span {
 
 .flex-box-membership {
     display: flex;
+    flex-flow: wrap;
     gap: 3rem;
 }
 
@@ -55,6 +56,22 @@ h3 span {
     padding: 2rem 2rem;
     box-shadow: 19px 25px 56px -31px rgba(255, 0, 214, 0.31), 34px 26px 39px -9px rgba(0, 0, 0, 0.25);
     border-radius: 32px;
+}
+
+@media screen and (max-width:1826px){
+	    .membership-item{
+            margin: auto;
+            padding: auto;
+        }
+        .membership-item>p {
+            font-size: 1rem;
+            margin-bottom: 4rem;
+        }
+        .footer>p {
+            color: #C8C8C8;
+            text-align: center;
+            margin: auto;
+        }
 }
 
 .membership-item>img {
@@ -126,10 +143,11 @@ h3 span {
     color: #C8C8C8;
 }
 
-footer p {
+footer>p {
     color: #C8C8C8;
     text-align: center;
     height: 50px;
+    width: 100%;
     margin-top: 300px;
     margin-bottom: 0;
 }
