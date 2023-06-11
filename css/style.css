@@ -45,7 +45,8 @@ h3 span {
 
 .flex-box-membership {
     display: flex;
-    gap: 3rem;
+    padding: 1rem 2rem;
+    gap: 4rem;
 }
 
 .membership-item {
@@ -53,25 +54,6 @@ h3 span {
     padding: 2rem 2rem;
     box-shadow: 19px 25px 56px -31px rgba(255, 0, 214, 0.31), 34px 26px 39px -9px rgba(0, 0, 0, 0.25);
     border-radius: 32px;
-}
-
-@media screen and (max-width:1400px){
-	    .flex-box-membership {
-            flex-flow: wrap;
-        }
-        .membership-item {
-            margin: auto;
-            padding: auto;
-        }
-        .membership-item>p {
-            font-size: 1rem;
-            margin-bottom: 4rem;
-        }
-        .footer>p {
-            color: #C8C8C8;
-            text-align: center;
-            margin: auto;
-        }
 }
 
 .membership-item>img {
@@ -93,6 +75,7 @@ h3 span {
     color: #000000c7;
     display: inline-block;
     transition: 0.3s;
+    margin: 0 auto;
 }
 
 .button>a:hover {
@@ -101,7 +84,7 @@ h3 span {
 
 .membership-item>p {
     font-size: 18px;
-    padding-right: 2rem;
+
     margin-bottom: 4rem;
 }
 
@@ -150,4 +133,31 @@ footer>p {
     width: 100%;
     margin-top: 300px;
     margin-bottom: 0;
+}
+
+
+@media screen and (max-width:1400px){
+    .flex-box-membership {
+        padding: 1rem 1rem;
+        flex-flow: wrap;
+    }
+    .membership-item {
+        margin: auto;
+        padding: auto;
+    }
+    .membership-item>p {
+        font-size: 1rem;
+        margin-bottom: 4rem;
+    }
+    .footer>p {
+        color: #C8C8C8;
+        text-align: center;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:1714px){
+    .button>a {
+        padding: .3rem 2rem;
+    }
 }
