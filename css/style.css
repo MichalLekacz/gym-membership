@@ -84,7 +84,7 @@ h3 span {
 
 .membership-item>p {
     font-size: 18px;
-
+    padding-right: 1rem;
     margin-bottom: 4rem;
 }
 
@@ -159,5 +159,8 @@ footer>p {
 @media screen and (max-width:1714px){
     .button>a {
         padding: .3rem 2rem;
+    }
+    .flex-box-membership {
+        gap: 2rem;
     }
 }
