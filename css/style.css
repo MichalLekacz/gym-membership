@@ -61,6 +61,26 @@ h3 span {
     border-radius: 32px;
 }
 
+.orange-background {
+    background: linear-gradient(139.92deg, rgba(255, 255, 255, 0.3) 14.73%, rgba(255, 255, 255, 0) 37.51%), linear-gradient(341.3deg, #852611 -1.81%, #FF8600 101.4%);
+}
+
+.purple-background {
+    background: linear-gradient(340.96deg, #410E2F 1.58%, #CF0EEE 101.38%); 
+}
+
+.red-background {
+    background: linear-gradient(340.96deg, #410E2F 1.58%, #EE360E 101.38%);
+}
+
+.purple-glossy-background {
+    background: linear-gradient(137.32deg, rgba(255, 255, 255, 0.052) 31.46%, rgba(255, 255, 255, 0) 31.47%), linear-gradient(340.96deg, #340E41 1.58%, #EE0ED8 101.38%);
+}
+
+.violet-glossy-background {
+    background: linear-gradient(137.32deg, rgba(255, 255, 255, 0.052) 31.46%, rgba(255, 255, 255, 0) 31.47%), linear-gradient(340.96deg, #410E23 1.58%, #EE0E94 101.38%);
+}
+
 .membership-item>img {
     opacity: 75%;
 }
@@ -139,6 +159,14 @@ footer>p {
     width: 100%;
     margin-top: 300px;
     margin-bottom: 0;
+}
+
+footer a {
+    color: #C8C8C8;
+}
+
+footer a:hover {
+    color: grey;
 }
 
 
